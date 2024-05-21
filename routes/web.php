@@ -31,3 +31,8 @@ Route::get('/about', function () {
     return view('aboutPage');
 }) -> name('aboutMe');
 
+
+Route::get('/privacyPolicy', function () {
+    return view('privacyPage');
+}) -> name('policy');
+
