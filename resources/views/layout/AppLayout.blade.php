@@ -19,7 +19,7 @@
 <style>
     li:hover{
     color: rgb(255,119,51);
-    font-size: 15px;
+    font-size: 24px;
 
    }
 
@@ -35,6 +35,8 @@
     body{
         font-family: arial;
         background-color: rgb(59,122,87);
+        font-size: 25px;
+
     }
 
     ul,li,ol,menu{
@@ -66,5 +68,10 @@
         text-align: center;
         color: rgb(255,119,51);
         font-size: 80px;
+    }
+
+    .logo{
+        font-size: 40px;
+        font-weight: bold;
     }
 </style>
