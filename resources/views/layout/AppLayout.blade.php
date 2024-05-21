@@ -17,6 +17,16 @@
 
 
 <style>
+    li:hover{
+    color: rgb(255,119,51);
+    font-size: 15px;
+
+   }
+
+    li{
+        margin: 5px;
+    }
+
     a{
         text-decoration: none;
         color: currentcolor;
@@ -24,6 +34,7 @@
 
     body{
         font-family: arial;
+        background-color: rgb(59,122,87);
     }
 
     ul,li,ol,menu{
@@ -49,5 +60,11 @@
         background-color: rgb(0,8,51);
         color: white;
         font-weight: bold;
+    }
+
+    main{
+        text-align: center;
+        color: rgb(255,119,51);
+        font-size: 80px;
     }
 </style>

@@ -22,3 +22,12 @@ Route::get('/comics', function () {
 }) -> name('comics');
 
 
+Route::get('/contact', function () {
+    return view('contactsPage');
+}) -> name('contatti');
+
+
+Route::get('/about', function () {
+    return view('aboutPage');
+}) -> name('aboutMe');
+
