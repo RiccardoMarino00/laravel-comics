@@ -3,9 +3,10 @@
 
 @section ('content')
 <h1>COMICS</h1>
-@foreach ($Fumcomics as $comic)
 <div class="comics-contenitore">
     <div class="comics-riga">
+    @foreach ($Fumcomics as $comic)
+    
         <div class="comics-col">
             <img class="thumb-comic" src="{{$comic['thumb']}}" alt="">
             <div class="info">
@@ -17,11 +18,12 @@
                 <p>{{$comic['type']}}</p>
             </div>
         </div>
+    @endforeach
     </div>
 </div>
 
     
-@endforeach
+
   
     
 
