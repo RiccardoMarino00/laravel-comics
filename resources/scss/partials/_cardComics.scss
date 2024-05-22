@@ -1,0 +1,19 @@
+.comics-col{
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+}
+
+.thumb-comic{
+    width: 200px;
+}
+
+.comics-riga{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.comics-contenitore{
+    width: 1200px;
+}
