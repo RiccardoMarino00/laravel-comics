@@ -1,23 +1,47 @@
 .comics-col{
-    height: 500px;
-    width: 100%;
-    background-color: rgba(23, 7, 141, 0.249);
-    margin-bottom: 20px;
-    margin: 10px;
-    border: 2px solid black;
+    // width: 100%;
+    // background-color: rgba(23, 7, 141, 0.249);
+    // margin-bottom: 10px;
+    // margin: 10px;
+    // border: 2px solid black;
     color: whitesmoke;
-    border-radius: 10px;
+    // border-radius: 10px;
+    position: relative;
+    // overflow: hidden;
+    margin-top: 58px;
+
+
 
 }
 
 .thumb-comic{
-    width: 200px;
+    width: 350px;
+    border-radius: 10px;
+    // height: 490px;
+}
+
+.thumb-comic:hover + .info{
+    opacity: 1;
+    transition: opacity 1s;
+
+}
+
+.info:hover{
+    opacity: 1;
+
+}
+
+.thumb-comic:hover{
+    box-shadow: 5px 5px 5px rgb(59, 56, 56);
+    transition: box-shadow 1s;
 }
 
 .comics-riga{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
     text-align: center;
+    row-gap: 20px;
 
 }
 
@@ -27,5 +51,16 @@
 }
 
 .info{
-    
+    width: 320px;
+    position: absolute;
+    bottom: -10%;
+    left: 4%;
+    background-color:rgba(255, 255, 255, 0.83);
+    color: black;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    // transition: opacity 1s 1s;
 }
+
