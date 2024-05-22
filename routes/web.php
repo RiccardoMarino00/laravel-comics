@@ -18,7 +18,10 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/comics', function () {
-    return view('comicsPage');
+    
+    $Fumcomics = config('comics');
+
+    return view('comicsPage', ["Fumcomics" => $Fumcomics]);
 }) -> name('comics');
 
 
